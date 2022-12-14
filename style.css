@@ -1,0 +1,90 @@
+*{
+    font-family:'Poppins', sans-serif; 
+    padding: 0px;
+    margin: 0px;
+}
+
+.city{
+    display: flex;
+    justify-content: space-between;
+}
+
+  .vel{ margin-top: 40px;
+    margin-left: 40px;
+    font-size: 50px;
+             
+ }
+.head{
+    background-image: url('img/background.jpg');
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.city ul {
+    list-style: none;
+    color: white;
+    display: flex;
+
+    }
+    .city ul li{
+        margin: 0px 40px;
+        margin-top: 50px;
+    
+    }
+
+    .city ul li a{
+        text-decoration: none;
+        color: white;
+        
+    }
+
+
+.vel{
+    color: white;
+    
+    }
+
+
+.fuel{
+    margin-top: 150px;
+    color: white;
+    font-size:100px;
+    margin-left: 10px
+}
+
+.text{
+    color: white;
+    margin-left: 20px;
+}
+
+
+
+
+.up{
+    text-align: center;
+}
+
+
+
+
+.container{
+    background-color: white;
+    box-shadow: 5px 10px 30px;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.grid-items{
+    border: 1px solid gray;
+    
+}
+
+.gridsection{
+    display: grid;
+    grid-template-columns: repeat(4, 150px);
+    gap: 50px;
+    justify-content: center;
+    
+}
